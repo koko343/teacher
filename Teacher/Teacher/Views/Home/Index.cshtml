@@ -3,5 +3,62 @@
     ViewBag.Title = "Home";
 }
 
-<h2>Home</h2>
+@section Body{
+    <div class="row content-block">
+
+        <div class="col-md-4 col-xs-12 col-sm-12 teacher-img mobile-teacher">
+            <img src="~/Content/img/teachers.png" />
+        </div>
+
+        <div class="col-md-8 col-xs-12 col-sm-12 teacher-txt">
+            Уважаемые коллеги, для Вас работает раздел
+            Методическая копилка,
+            где Вы можете найти и скачать
+            необходимый учебник,
+            рабочую тетрадь,
+            дидактический материал и многое другое.
+            Для удобства можете
+            воспользоваться поиском.
+        </div>
+
+        <div class="col-md-4 col-xs-12 col-sm-12 teacher-img desktop-teacher">
+            <img src="~/Content/img/teachers.png"/>
+        </div>
+    </div>
+
+    <div class="row content-block">
+        <div class="col-md-4 col-xs-12 col-sm-12 parents-img">
+            <img src="~/Content/img/parents.png"/>
+        </div>
+
+        <div class="col-md-8 col-xs-12 col-sm-12 parents-txt">
+            Уважаемые родители, Вам будет интересен
+            раздел Хорошие родители.
+            В нем я публикую рекомендации и статьи.
+            Если Вы ищитуе учебники для своих детей,
+            то добро пожаловать в раздел Начальная школа,
+            где выбрав нужную программу обучения,
+            Вы с легкостью найдете нужную
+            для Вас литературу. Материалы Вы можете скачать
+            быстро и совершенно бесплатно.
+        </div>
+    </div>
+
+    <div class="row content-block">
+        <div class="col-md-12" style="text-align:center;">
+            <img src="~/Content/img/children.png"/>
+        </div>
+        <div class="col-md-12 children-txt">
+            Дорогие ребята, для вас у меня отдельная страничка<br />
+            Совиная школа, где вы вместе с совенком Филей будете учиться,<br />
+            играть и участвовать в различных конкурсах и заданиях.<br />
+        </div>
+    </div>
+
+}
+
+@section scripts
+{
+    <link href="~/Content/main.css" rel="stylesheet" />
+}
 

@@ -5,10 +5,97 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/Site.css" />
+    <script type="text/javascript" src="~/Scripts/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        @RenderBody()
+    <div class="container-fluid" style="padding:0px;margin:0px;">
+        <div class="row">
+            <div class="col-md-2 img-logo">
+                <img src="~/Content/img/globe.png" class="logo" />
+            </div>
+
+            <div class="col-md-10 header-text">
+                Сайт учителя початкових класів
+                <p>Чуб Галини Миколаївни</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="col-md-2 mainMenu-low navbar-collapse">
+                        <ul class="navigation nav navbar-nav">
+                            <a href="@Url.Action("Index","Home")"><li>Головна</li></a>
+                            <a href="@Url.Action("Index", "About")"><li>Учителю</li></a>
+                            <a href="@Url.Action("Index", "ForTeacher")"><li>Про себе</li></a>
+                            <a href="@Url.Action("Index", "ForParents")"><li>Дбайливим батькам</li></a>
+                            <a href="@Url.Action("Index","ForStudents")"><li>Розумним учням</li></a>
+                            <a href="@Url.Action("Index", "Galery")"><li>Фотогалерея</li></a>
+                            <a href="@Url.Action("Index", "GuestBook")"><li>Гостьова книга</li></a>
+                            <a href="@Url.Action("Index","Contact")"><li>Зворотній зв'язок</li></a>
+                        </ul>
+
+                        <ul class="navigation nav2">
+                            <a href="@Url.Action("Index", "ForParents")"><li>Цікаве дітям</li></a>
+                            <a href="@Url.Action("Index","Contact")"><li>Відео матеріали</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mainMenu-wide">
+                <ul class="navigation">
+                    <a href="@Url.Action("Index","Home")"><li>Головна</li></a>
+                    <a href="@Url.Action("Index", "About")"><li>Учителю</li></a>
+                    <a href="@Url.Action("Index", "ForTeacher")"><li>Про себе</li></a>
+                    <a href="@Url.Action("Index", "ForParents")"><li>Дбайливим батькам</li></a>
+                    <a href="@Url.Action("Index","ForStudents")"><li>Розумним учням</li></a>
+                    <a href="@Url.Action("Index", "Galery")"><li>Фотогалерея</li></a>
+                    <a href="@Url.Action("Index", "GuestBook")"><li>Гостьова книга</li></a>
+                    <a href="@Url.Action("Index","Contact")"><li>Зворотній зв'язок</li></a>
+                </ul>
+
+                <ul class="navigation nav2">
+                    <a href="@Url.Action("Index", "ForParents")"><li>Цікаве дітям</li></a>
+                    <a href="@Url.Action("Index","Contact")"><li>Відео матеріали</li></a>
+                </ul>
+            </div>
+
+            <div id="mainContent" class="col-md-10">
+                @RenderSection("Body")
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 footer">
+                <div class="slang">Бути учителем це покликання!</div>
+                <div class="col-md-4 col-xs-6 col-sm-4 contacts">
+                    Пошта : alabama343@mail.ru<br />
+                    Телефон : 0631245593
+                </div>
+                <div class="col-xs-6 links mobile">
+                    <a href="#"><img src="~/Content/img/ico/mail.png" /></a>
+                    <a href="#"><img src="~/Content/img/ico/vk.png" /></a>
+                    <a href="#"><img src="~/Content/img/ico/fb.png" /></a>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4 copyright">
+                    © 2016 Усі права захищені
+                </div>
+                <div class="col-md-4 col-sm-4 links desktop">
+                    <a href="#"><img src="~/Content/img/ico/mail.png" /></a>
+                    <a href="#"><img src="~/Content/img/ico/vk.png" /></a>
+                    <a href="#"><img src="~/Content/img/ico/fb.png" /></a>
+                </div>
+            </div>
+        </div>
     </div>
 
     @RenderSection("scripts", false)

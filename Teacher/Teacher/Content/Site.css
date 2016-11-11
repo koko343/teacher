@@ -1,0 +1,347 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225,225,225);
+    font-family: 'Segoe UI';
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+#mainContent {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+}
+
+.img-logo {
+    text-align: center;
+    background-color: rgb(210,74,67);
+}
+
+.header-text {
+    text-align: center;
+    color: rgb(210,74,67);
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.navbar {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggle {
+    border: none;
+    float: left;
+    margin-left: 3%;
+}
+
+.navbar-default {
+    background-color: rgb(210,74,67);
+}
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: rgb(210,74,67);
+    }
+
+    .navbar-default .navbar-collapse {
+        border: none;
+    }
+
+.mainMenu-wide {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    background-color: rgb(210,74,67);
+    height: 850px;
+}
+
+.navigation {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    padding: 0;
+}
+
+    .navigation a li {
+        padding-left: 50px;
+        width: 100%;
+        line-height: 40px;
+        list-style-type: none;
+        color: white;
+    }
+
+        .navigation a li:hover {
+            background-color: rgb(217,103,97);
+        }
+
+    .navigation a:hover {
+        text-decoration: none;
+    }
+
+.nav2 {
+    border-top: 1px solid rgb(225,225,225);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(51,51,51);
+}
+
+.slang {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.contacts {
+    color: rgb(217,103,97);
+    text-align: left;
+    padding-left: 5px;
+}
+
+.copyright {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.links {
+    text-align: right;
+    padding-top: 10px;
+}
+
+    .links a img {
+        width: 30px;
+        height: 30px;
+    }
+
+@media (min-width: 0px) and (max-width:768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .img-logo {
+        background-color: rgb(210,74,67);
+    }
+
+    .header-text {
+        padding-bottom: 30px;
+        font-size: 18px;
+        color: rgb(225,225,225);
+        background-color: rgb(210,74,67);
+    }
+
+    .navbar {
+        overflow: visible;
+    }
+
+    .navigation a li {
+        padding-left: 0px;
+    }
+
+    .mainMenu-wide {
+        display: none;
+    }
+
+    .mainMenu-low {
+        padding: 0px;
+    }
+
+    .navigation {
+        margin: 0px;
+    }
+
+    .nav2 {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .slang {
+        font-size: 15px;
+        color: white;
+    }
+
+    .contacts {
+        padding: 0px;
+        font-size: 11px;
+    }
+
+    .copyright {
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+    }
+
+    .links {
+        padding: 0px;
+    }
+
+        .links a img {
+            width: 30px;
+            height: 30px;
+        }
+
+    .mobile {
+        overflow: visible;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .img-logo {
+        background-color: rgb(210,74,67);
+    }
+
+    .header-text {
+        padding-bottom: 20px;
+        color: rgb(225,225,225);
+        background-color: rgb(210,74,67);
+    }
+
+    .container {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .navigation {
+        margin: 0px;
+    }
+
+    .nav2 {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .navbar {
+        overflow: visible;
+        border-radius: 0px;
+    }
+
+    .mainMenu-low {
+        padding: 0px;
+    }
+
+    .navigation a li {
+        padding-left: 0px;
+    }
+
+    .mainMenu-wide {
+        display: none;
+    }
+
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+        .navbar-collapse.collapse.in {
+            display: block !important;
+        }
+
+    .navbar-header .collapse, .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-header {
+        float: none;
+        border: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        overflow: visible;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1226px) {
+    .navigation a li {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width:992px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .mainMenu-wide {
+        overflow: visible;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        overflow: visible;
+    }
+}

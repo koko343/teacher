@@ -1,0 +1,126 @@
+﻿.content-text {
+    color: rgb(72,72,72);
+    text-align: center;
+    font-size: 16px;
+}
+
+.content-block {
+    margin-top: 90px;
+}
+
+.teacher-txt {
+    padding-top: 20px;
+    padding-left: 140px;
+    color: rgb(72,72,72);
+    text-align: center;
+    font-size: 16px;
+}
+
+.parents-txt {
+    padding-top: 20px;
+    padding-right: 140px;
+    color: rgb(72,72,72);
+    text-align: center;
+    font-size: 16px;
+}
+
+.children-txt {
+    color: rgb(72,72,72);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.teacher-img {
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 50px;
+}
+
+.parents-img {
+    padding-top: 13px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+@media (min-width: 0px) and (max-width:768px) {
+    .teacher-txt {
+        padding-left: 0px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .parents-txt {
+        padding-right: 0px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .children-txt {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .teacher-img {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .parents-img {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .mobile-teacher {
+        overflow: visible;
+    }
+
+    .desktop-teacher {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .teacher-txt {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .parents-txt {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .mobile-teacher {
+        overflow: visible;
+    }
+
+    .desktop-teacher {
+        display: none;
+    }
+
+    .teacher-img {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .parents-img {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .children-txt {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:992px) {
+
+    .mobile-teacher {
+        display: none;
+    }
+
+    .desktop-teacher {
+        overflow: visible;
+    }
+}

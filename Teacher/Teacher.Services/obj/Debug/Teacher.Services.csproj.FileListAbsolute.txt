@@ -1,0 +1,11 @@
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\Teacher.Services.dll
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\Teacher.Services.pdb
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\Teacher.Data.dll
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\EntityFramework.dll
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\Teacher.Core.dll
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\Teacher.Data.pdb
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\EntityFramework.xml
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\bin\Debug\Teacher.Core.pdb
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\obj\Debug\Teacher.Services.csprojResolveAssemblyReference.cache
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\obj\Debug\Teacher.Services.dll
+C:\Users\Ilia\Desktop\teacher\Teacher\Teacher.Services\obj\Debug\Teacher.Services.pdb
